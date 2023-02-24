@@ -6,7 +6,7 @@ import json
 
 def PA1(user_reviews_csv,products_csv):
     start = time.time()
-    client = Client('127.0.0.1:8786')
+    client = Client(n_workers=1, threads_per_worker=4, processes=True, memory_limit='18GB')
     client = client.restart()
     print(client)
         

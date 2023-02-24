@@ -4,5 +4,6 @@ export AWS_SESSION_TOKEN=FwoGZXIvYXdzEHYaDOeVWnnkostMc8K8NCKtAWb+xZ2YYXE0/igoYCG
 
 pem="/Users/ryandsouza/Documents/dsc102/hw/pa1/dsc-pa1/ryan-dask-key.pem"
 alias sj="ssh -i $pem -L 8888:localhost:8888 ubuntu@34.209.238.171"
+alias sd="ssh -i $pem -L 8787:localhost:8787 ubuntu@34.209.238.171"
 
 alias jn="jupyter notebook --port=8888"
